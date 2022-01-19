@@ -1,6 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
+
 /* General Settings */
 
 html,
@@ -26,6 +27,7 @@ header {
 }
 
 nav {
+	padding-top: 2em;
 	position: relative;
 	float: right;
 	z-index: 400;
@@ -47,37 +49,32 @@ nav ul li {
 }
 
 nav ul li a {
-	font-size: .85em;
+	font-size: 1em;
+	padding-top: 2em;
 	padding-bottom: .5em;
 	text-decoration: none;
 	letter-spacing: .15em;
 	text-transform: uppercase;
 	color: #66CCFF;
-	-webkit-transition: color .3s;
 	transition: color .3s;
 }
 
 footer {
 	padding-bottom: 11em;
 	background: gray;
+	color: orangered;
 }
 
 .footer-credit {
-	position: bottom;
+	padding-top: 100px;
+	padding-right: 25px;
 	float: right;
 }
 
 .footer-tools {
-	position: bottom;
+	padding-top: 100px;
+	padding-left: 25px;
 	float: left;
-}
-
-.footer-credit a:hover {
-	text-decoration: none;
-}
-
-.footer-tools a:hover {
-	text-decoration: none;
 }
 
 /* Homepage Settings */
@@ -112,3 +109,169 @@ footer {
 	text-align: center;
 }
 
+
+/* Menupage Settings */
+
+	/* Banner Settings */
+.Menu-banner {
+	background-color: #B3B3B3;
+	padding-top: 6em;
+	padding-bottom: 6em;
+}
+
+.banner-Pt1 {
+	color: #FFFFFF;
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	letter-spacing: 4px;
+}
+
+.banner-Pt2 {
+	font-weight: bold;
+	color: #000000;
+}
+
+
+	/* Q&A Settings */
+.Q_A {
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 35px;
+	display: inline-block;
+	background-color: #FFFFFF;
+	margin-top: 0px;
+}
+
+.text_column {
+	width: 48%;
+	text-align: justify;
+	font-weight: lighter;
+	line-height: 25px;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #66CCFF;
+}
+
+.Question {
+	color: crimson;
+}
+
+
+	/* Links Settings */
+.links {
+	clear: both;
+	display: inline-block;
+	width: 100%;
+	background-color: #B3B3B3;
+	padding-bottom: 55px;
+	padding-top: 25px;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-top: 55px;
+	margin-bottom: 0px;
+}
+
+.block {
+	width: 20%;
+	text-align: center;
+	float: left;
+	margin-top: 35px;
+	font-size: 11px;
+}
+
+.Site_name {
+	color: crimson;
+	margin-bottom: 5px;
+}
+
+.links .block h4 {
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	color: #66CCFF;
+	text-transform: uppercase;
+}
+
+.links .block p {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+
+	/* Parallax Settings */
+.banner {
+	background-color: #2D9AB7;
+	background-image: url("images/parallax.png");
+	height: 400px;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.parallax {
+	color: #FFFFFF;
+	text-align: right;
+	padding-right: 100px;
+	padding-top: 110px;
+	letter-spacing: 2px;
+	margin-top: 0px;
+}
+.parallax_description {
+	color: #FFFFFF;
+	text-align: right;
+	padding-right: 100px;
+	width: 30%;
+	float: right;
+	font-weight: lighter;
+	line-height: 26px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-size: 20px;
+}
+
+	/* Column Settings */
+.column {
+	text-align: left;
+	padding-right: 100px;
+	width: 30%;
+	float: left;
+	font-weight: lighter;
+	line-height: 26px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 30px;
+	font-size: 20px;
+}
+.column h3 {
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.cards {
+	width: 100%;
+	height: auto;
+	max-width: 800px;
+	max-height: 600px;
+}
+.column p {
+	color: #FFFFFF;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: justify;
+	line-height: 25px;
+	font-weight: lighter;
+	margin-left: 20px;
+	margin-right: 20px;
+}
