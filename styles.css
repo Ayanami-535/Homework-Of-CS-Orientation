@@ -1,6 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
 
+/* General Settings */
+
 html,
 html * {
   box-sizing: border-box;
@@ -55,48 +57,18 @@ nav ul li a {
 	transition: color .3s;
 }
 
-main {
-	position: relative;
-	height: auto;
-	background-image: linear-gradient(to left, white 0%, #66ccff 100%);
-}
-
-h1 {
-	color: #000000;
-	padding: 3.5em 1em 3.5em 1em;
-	font-size: 7em;
-	letter-spacing: 0.3em;
-	text-align: center;
-}
-
-h2 {
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"; 
-	color: crimson;
-	padding: 5em 1em 4em 1em;
-	font-size: 1.5em;
-	letter-spacing: 0.1em;
-	text-align: center;
-}
-
-p {
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
-	color:orangered;
-	padding: 6em 1em 3em 1em;
-	text-align: center;
-}
-
 footer {
-	padding-bottom: 10em;
+	padding-bottom: 11em;
 	background: gray;
 }
 
 .footer-credit {
-	position: relative;
+	position: bottom;
 	float: right;
 }
 
 .footer-tools {
-	position: relative;
+	position: bottom;
 	float: left;
 }
 
@@ -107,3 +79,36 @@ footer {
 .footer-tools a:hover {
 	text-decoration: none;
 }
+
+/* Homepage Settings */
+
+.Homepage-main {
+	position: relative;
+	height: auto;
+	background-image: linear-gradient(to left, white 0%, #66ccff 100%);
+}
+
+.Homepage-title1 {
+	color: #000000;
+	padding: 3.5em 1em 3.5em 1em;
+	font-size: 7em;
+	letter-spacing: 0.3em;
+	text-align: center;
+}
+
+.Homepage-title2 {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"; 
+	color: crimson;
+	padding: 5em 1em 4em 1em;
+	font-size: 1.5em;
+	letter-spacing: 0.1em;
+	text-align: center;
+}
+
+.Homepage-menu {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	color:orangered;
+	padding: 6em 1em 3em 1em;
+	text-align: center;
+}
+
