@@ -212,7 +212,7 @@ footer {
 .banner {
 	background-color: #2D9AB7;
 	background-image: url("images/parallax.png");
-	height: 400px;
+	height: 300px;
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -221,7 +221,7 @@ footer {
 	color: #FFFFFF;
 	text-align: right;
 	padding-right: 100px;
-	padding-top: 110px;
+	padding-top: 75px;
 	letter-spacing: 2px;
 	margin-top: 0px;
 }
@@ -240,38 +240,28 @@ footer {
 	font-size: 20px;
 }
 
+
 	/* Column Settings */
-.column {
-	text-align: left;
-	padding-right: 100px;
-	width: 30%;
-	float: left;
-	font-weight: lighter;
-	line-height: 26px;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 30px;
-	font-size: 20px;
+.banner-column {
+	display: inline-block;
+	width: 100%;
 }
+
+.column {
+	width: 100%;
+	text-align: center;
+	padding-top: 30px;
+	float: center;
+}
+	
 .column h3 {
-	color: #FFFFFF;
+	color: #000000;
 	text-align: center;
 }
 
 .cards {
 	width: 100%;
 	height: auto;
-	max-width: 800px;
-	max-height: 600px;
-}
-.column p {
-	color: #FFFFFF;
-	padding-left: 30px;
-	padding-right: 30px;
-	text-align: justify;
-	line-height: 25px;
-	font-weight: lighter;
-	margin-left: 20px;
-	margin-right: 20px;
+	max-width: 1000px;
+	max-height: 800px;
 }
